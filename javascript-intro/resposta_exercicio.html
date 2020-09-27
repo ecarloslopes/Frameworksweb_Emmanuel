@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+        <script>
+           
+            var opcao = -1;
+
+            while(opcao!=99){
+                opcao = parseInt(prompt("1 = SOMAR   | 2 - SUBTRAIR  | 3 - Multiplicar | 99 -Sair"));
+                var valorA = parseInt(prompt("Informe o primeiro valor"));
+                var valorB = parseInt(prompt("Informe o segundo valor"));
+                
+                switch(opcao){
+
+                    case 1 : window.alert(valorA+valorB); break;
+                    case 2 : window.alert(valorA-valorB); break;
+                    default : window.alert("Opção não existe")
+                }
+
+
+                if(opcao==1){
+                    window.alert(valorA+valorB);
+                }
+                
+                if(opcao==2){
+                    window.alert(valorA-valorB);
+                }
+
+                if(opcao==3){
+                    window.alert(valorA*valorB);
+                }
+              
+                if(opcaoo==99){
+                    window.alert("Programa encerrando");
+                }
+
+
+            }
+
+
+
+        </script>
+
+</body>
+</html>
